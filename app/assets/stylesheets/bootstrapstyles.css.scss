@@ -1,7 +1,35 @@
-$navbar-default-bg: #008080;
-$navbar-default-link-color: #fff;
-$navbar-default-toggle-border-color: #fff;
-$navbar-default-toggle-icon-bar-bg: #fff;
+@import url(http://fonts.googleapis.com/css?family=Lobster|Raleway:400,700);
+
+$body-bg: #e8e8e8;
+//Fonts
+$font-family-sans-serif:	'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+//Navbar
+$navbar-default-bg:	#ffffff;
+$navbar-default-link-color:	#1c2833;
+$navbar-default-link-hover-color: lighten($navbar-default-link-color, 25%);
+$navbar-height: 45px;
+$navbar-default-toggle-border-color: #1c2833;
+$navbar-default-brand-color: #008080;
+$navbar-default-toggle-icon-bar-bg: #008080;
 $navbar-default-toggle-hover-bg: #e8e8e8; 
 
+//brand button
+$brand-primary: #008080;
+//jumbotron
+$jumbotron-bg: white;
+
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	// font-weight: bold;
+	letter-spacing: 1px;
+	font-family: 'Lobster', cursive;
+}
+
+#lobster-font {
+	font-family: 'Lobster', cursive;
+}
