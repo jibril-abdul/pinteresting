@@ -79,5 +79,5 @@ Rails.application.configure do
 
   # Required for Heroku - devise
   # Note to set to actual Host
-  config.action_mailer.default_url_options = { host: => 'jibril-omr-pintersting.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'jibril-omr-pintersting.herokuapp.com' }
 end
